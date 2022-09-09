@@ -2,8 +2,7 @@ using UnityEngine;
 
 public class PlayerController : MonoBehaviour
 {
-    [SerializeField] private float _moveSpeed;
-    [SerializeField] private float _bulletSpeed;
+    [SerializeField] private float _moveSpeed, _bulletSpeed;
     [SerializeField] private GameObject _bulletPrefab;
 
     private void Update()
